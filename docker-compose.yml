@@ -1,0 +1,22 @@
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile.flask
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_APP: pose_recorder_app.py
+    volumes:
+      - ./poses.json:/app/poses.json
+      - ./pose_images:/app/pose_images
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./poses.json:/app/poses.json
+      - ./pose_images:/app/pose_images

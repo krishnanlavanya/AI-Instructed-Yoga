@@ -1,0 +1,32 @@
+{
+  "Warrior Pose": {
+    "left_elbow": 1,
+    "left_shoulder": 90,
+    "left_leg": 60,
+    "left_knee": 1,
+    "right_elbow": 1,
+    "right_shoulder": 90,
+    "right_leg": 90,
+    "right_knee": 90
+  },
+  "Test Pose": {
+    "left_elbow": 90,
+    "left_shoulder": 90,
+    "left_leg": 57,
+    "left_knee": 2,
+    "right_elbow": 90,
+    "right_shoulder": 90,
+    "right_leg": 89,
+    "right_knee": 81
+  },
+  "Vrikasana": {
+    "left_elbow": 24,
+    "left_shoulder": 37,
+    "left_leg": 6,
+    "left_knee": 6,
+    "right_elbow": 31,
+    "right_shoulder": 19,
+    "right_leg": 62,
+    "right_knee": 34
+  }
+}
