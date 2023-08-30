@@ -1,4 +1,4 @@
-# Yoga tutor streamlit app
+# Learn Yoga with this App
 
 ### Setting up - Docker method (Preferred)
 
